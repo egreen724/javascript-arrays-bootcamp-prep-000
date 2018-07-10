@@ -11,15 +11,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 } 
 
 function addElementToEndOfArray(array, element) {
-  var colors = ["Purple", "Gold"];
-  colors = [...colors, "Green"];
-  return colors; 
+  return [...array, element]
 }
 
-function destructivelyAddElementToEndOfArray () {
-  var cities = ["New York", "Chicago"];
-  cities.push("New Orleans");
-  return cities;
+function destructivelyAddElementToEndOfArray (array, element) {
+  array.push(element);
+  return array;
 }
 
 function accessElementInArray() {
