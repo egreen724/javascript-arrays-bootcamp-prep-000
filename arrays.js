@@ -10,7 +10,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array;
 } 
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   var colors = ["Purple", "Gold"];
   colors = [...colors, "Green"];
   return colors; 
