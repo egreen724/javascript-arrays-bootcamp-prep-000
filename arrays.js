@@ -24,19 +24,16 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  var myArrayTwo = [1, 2, 3];
-  myArrayTwo.shift();
-  return myArrayTwo;
+  array.shift();
+  return array;
 }
 
-function removeElementFromBeginningOfArray() {
-  var myArrayThree = [1, 2, 3];
-  myArrayThree = myArrayThree.slice(1);
-  return myArrayThree;
+function removeElementFromBeginningOfArray(array) {
+  array.slice(1);
+  return array;
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
-  var soccer = [1, 2, 3];
+function destructivelyRemoveElementFromEndOfArray(array) {
   soccer.pop();
   return soccer; 
 }
