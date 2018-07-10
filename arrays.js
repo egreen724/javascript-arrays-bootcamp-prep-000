@@ -34,12 +34,11 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  soccer.pop();
-  return soccer; 
+  array.pop();
+  return array; 
 }
 
-function removeElementFromEndOfArray() {
-  var myArrayFour = [1, 2, 3];
-  myArrayFour.slice(0, myArrayFour.length-1);
-  return myArrayFour;
+function removeElementFromEndOfArray(array) {
+  array.slice(0, array.length-1);
+  return array;
 }
